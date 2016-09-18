@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout tools:context="mx.carpediemsoft.lasmasdcotas.MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <include layout="@layout/actionbar"
+        android:id="@+id/miActionBar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/reciclador1"
+        android:scrollbars="vertical"
+        android:padding="3dp"/>
+
+</RelativeLayout>

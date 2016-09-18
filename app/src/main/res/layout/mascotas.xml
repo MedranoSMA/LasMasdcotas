@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<android.support.v7.widget.CardView card_view:cardElevation="@dimen/elevation"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    card_view:cardCornerRadius="@dimen/radius"
+    android:layout_height="340"
+    android:layout_width="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+        <ImageView
+            android:layout_height="@dimen/cua"
+            android:layout_width="@dimen/cua"
+            android:id="@+id/imgMascota"
+            android:src="@drawable/bulldog"
+            android:layout_gravity="center"
+            android:contextClickable="true"
+            android:contentDescription = "@string/m1"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/idNombre"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/m1n"
+            android:layout_gravity="center"
+
+
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/idDes"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/m1"
+            android:layout_gravity="center"
+
+            />
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/likes"
+            android:background="@drawable/sta"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="320dp"
+            android:onClick="clsRanking"
+            />
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/cat"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            />
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/like"
+            android:background="@drawable/d"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="contador"
+
+            />
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/d1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="320dp"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/idLikes"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tot"
+            android:layout_gravity="center"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="320dp"
+
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
